@@ -53,22 +53,22 @@ while True:
         cv2.imshow('Video',frame)
         if(result['dominant_emotion'] == 'happy'):
            pygame.mixer.init()
-           pygame.mixer.music.load("Songs/song1.mp3")
+           pygame.mixer.music.load("song1.mp3")
            pygame.mixer.music.play()
 
         elif(result['dominant_emotion'] == 'sad'):
            pygame.mixer.init()
-           pygame.mixer.music.load("Songs/song.mp3")
+           pygame.mixer.music.load("song.mp3")
            pygame.mixer.music.play()
 
         elif(result['dominant_emotion'] == 'neutral'):
            pygame.mixer.init()
-           pygame.mixer.music.load("Songs/song.mp3")
+           pygame.mixer.music.load("song.mp3")
            pygame.mixer.music.play()
 
         elif(result['dominant_emotion'] == 'angry'):
            pygame.mixer.init()
-           pygame.mixer.music.load("Songs/song.mp3")
+           pygame.mixer.music.load("song.mp3")
            pygame.mixer.music.play()
 
     else:
